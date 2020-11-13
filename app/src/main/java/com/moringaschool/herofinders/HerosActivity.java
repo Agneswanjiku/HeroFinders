@@ -37,7 +37,7 @@ public class HerosActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
         MyHerosArrayAdapter adapter = new MyHerosArrayAdapter(this, android.R.layout.simple_list_item_1, cultureherosmythology, heros);
-        mListView.setAdapter(adapter);
+                    mListView.setAdapter(adapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

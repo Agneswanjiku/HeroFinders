@@ -21,15 +21,15 @@
         android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/locationEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/locationEditText"
-        android:background="@color/colorTextIcons"
         android:layout_above="@+id/findHerosButton"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:padding="5dp"
+        android:background="#4584E3"
         android:hint="Hero Code"
-        android:layout_centerHorizontal="true" />
+        android:padding="5dp" />
 
     <Button
         android:id="@+id/findHerosButton"
