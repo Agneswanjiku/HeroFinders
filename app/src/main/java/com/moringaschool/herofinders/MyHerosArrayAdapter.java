@@ -27,27 +27,3 @@ public class MyHerosArrayAdapter extends ArrayAdapter {
         return mHeros.length;
     }
 }
-//
-//    private Context mContext;
-//    private String[] mParks;
-//    private String[] mAnimals;
-//
-//    public MyWildlifesArrayAdapter (Context mContext, int resource, String[] mParks, String[] mAnimals){
-//        super(mContext, resource);
-//        this.mContext = mContext;
-//        this.mAnimals = mAnimals;
-//        this.mParks = mParks;
-//    }
-//
-//    @Override
-//    public Object getItem(int position){
-//        String parks = mParks[position];
-//        String animal = mAnimals[position];
-//        return String.format("%s \n Some wonderful are wildlife here: %s", parks, animal);
-//    }
-//
-//    @Override
-//    public int getCount(){
-//        return mAnimals.length;
-//    }
-//}

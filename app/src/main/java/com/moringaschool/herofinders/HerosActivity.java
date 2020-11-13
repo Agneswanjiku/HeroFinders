@@ -45,6 +45,6 @@ public class HerosActivity extends AppCompatActivity {
                 Toast.makeText(HerosActivity.this, parks, Toast.LENGTH_LONG).show();
             }
         });
-        mLocationTextView.setText("Here are some of culture heros: " + location);
+        mLocationTextView.setText("Here are some of heros and their  culture metholodys: " + location);
     }
 }
