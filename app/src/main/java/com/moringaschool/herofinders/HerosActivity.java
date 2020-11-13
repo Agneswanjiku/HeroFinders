@@ -16,18 +16,16 @@ import butterknife.ButterKnife;
 public class HerosActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.locationTextView)
-    TextView mLocationTextView;
-    @BindView(R.id.listView)
-    ListView mListView;
-    private String[] parks = new String[] {"Abadare", "Kora",
-            "Arabuko sokoke", "Amboseli", "Malindi", "Saiwa",
-            "Tsavo", "Equinox", "Malka maris", "Watamu",
-            "Meru", "Hell gate", "Ruma",
-            "Oldonyo", "Nanyar"};
-    private String[] animals = new String[] {"  Antelope", "Girafffe", "Lion",
-            "Monkeys", "Ostrich", "Peacock", "Cheetahs", "Warthog", "Hyena",
-            "Leopard", "Zebra", "Hare", "Crocodile", "Elephant", "Wildcats", "Lizard" };
+    @BindView(R.id.locationTextView) TextView mLocationTextView;
+    @BindView(R.id.listView) ListView mListView;
+    private String[] cultureherosmythology = new String[]{"Abenak", "Ainu",
+            "Ausralian Abronigical", "Armenian", "Ashanti", "Aztec",
+            "Banks Islads", "Buddhist", "Carolline Islads", "Lakota",
+            "Maya", "Indian", "Norse",
+            "Navanjo", "Ojibwe"};
+    private String[] heros = new String[]{"  Ant Man", "Aqualman", "Asterix",
+            "The Atom", "The Avengers", "Batgirl", "Batman", "Batwoman", "Black Panary",
+            "Black Panther", "Captain America", "Captain Marvel", "Hellboy", "Doc savage", "Green arrow", "Wonder Woman"};
 
 
     @Override
@@ -38,14 +36,15 @@ public class HerosActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
-        MyHerosArrayAdapter adapter = new MyHerosArrayAdapter(this, android.R.layout.simple_list_item_1, parks, animals);
+        MyHerosArrayAdapter adapter = new MyHerosArrayAdapter(this, android.R.layout.simple_list_item_1, cultureherosmythology, heros);
         mListView.setAdapter(adapter);
-        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l){
-                String parks = ((TextView)view).getText().toString();
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String parks = ((TextView) view).getText().toString();
                 Toast.makeText(HerosActivity.this, parks, Toast.LENGTH_LONG).show();
             }
         });
-        mLocationTextView.setText("Here are all the parks near: " + location);
+        mLocationTextView.setText("Here are some of culture heros: " + location);
     }
+}

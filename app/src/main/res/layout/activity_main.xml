@@ -25,14 +25,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/locationEditText"
         android:background="@color/colorTextIcons"
-        android:layout_above="@+id/findHerosfinderButton"
+        android:layout_above="@+id/findHerosButton"
         android:layout_marginBottom="10dp"
         android:padding="5dp"
         android:hint="Hero Code"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:id="@+id/findHerosfinderButton"
+        android:id="@+id/findHerosButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

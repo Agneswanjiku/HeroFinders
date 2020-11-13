@@ -13,8 +13,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity  implements  View.OnClickListener {
-    @BindView(R.id.findHerosfinderButton)
-    Button mFindWildlifesButton;
+    @BindView(R.id.findHerosButton)
+    Button mFindHerosButton;
     @BindView(R.id.locationEditText)
     EditText mLocationEditText;
     @BindView(R.id.appNameTextView)
@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity  implements  View.OnClickLis
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        mFindWildlifesButton.setOnClickListener(this);
+        mFindHerosButton.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View v) {
-        if (v == mFindWildlifesButton) {
+        if (v == mFindHerosButton) {
             String location = mLocationEditText.getText().toString();
             Intent intent = new Intent(MainActivity.this, HerosActivity.class);
             intent.putExtra("location", location);
