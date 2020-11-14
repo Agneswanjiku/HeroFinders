@@ -11,13 +11,10 @@
 <br> Liking Activity <br>
 
 # UI
-![Screenshot from 2020-11-07 12-11-32](https://user-images.githubusercontent.com/63198747/98437481-75c63d80-20f3-11eb-9ebc-49723cb04b1f.png)
-![Screenshot from 2020-11-07 12-11-59](https://user-images.githubusercontent.com/63198747/98437485-82e32c80-20f3-11eb-894f-26454a95fe37.png)
-![Screenshot from 2020-11-07 12-12-07](https://user-images.githubusercontent.com/63198747/98437490-9098b200-20f3-11eb-8556-a7d34dab98c3.png)
-![Screenshot from 2020-11-07 12-11-32](https://user-images.githubusercontent.com/63198747/98437500-9f7f6480-20f3-11eb-86da-ccb7b9f7e721.png)
-![Screenshot from 2020-11-07 12-13-51](https://user-images.githubusercontent.com/63198747/98437506-aefead80-20f3-11eb-9af8-68384f8318c1.png)
-![Screenshot from 2020-11-07 12-13-51](https://user-images.githubusercontent.com/63198747/98437513-c3db4100-20f3-11eb-9968-d7de460d4b01.png)
-
+![Screenshot from 2020-11-14 17-15-42](https://user-images.githubusercontent.com/63198747/99149146-51db9c80-269d-11eb-89b4-767f6b36c603.png)
+![Screenshot from 2020-11-14 17-15-50](https://user-images.githubusercontent.com/63198747/99149160-6029b880-269d-11eb-95ae-502f167a1006.png)
+![Screenshot from 2020-11-14 17-16-01](https://user-images.githubusercontent.com/63198747/99149164-6a4bb700-269d-11eb-95b4-24265e7de97e.png)
+![Screenshot from 2020-11-14 17-15-53](https://user-images.githubusercontent.com/63198747/99149177-7afc2d00-269d-11eb-9b25-d1be6fc97a49.png)
 
 
 
