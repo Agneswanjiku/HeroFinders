@@ -1,10 +1,9 @@
 # HeroFinder
-<br>Welcome to my HeroFinder App. Where you can be able to find your favourite Hero<br>
+<br>Welcome to my HeroFinders App. Where you can be able to find your favourite Hero<br>
 
 # Key Features In My HeroFinder Application
 <br>LOGIN <br>
-<br> Nice images of Heros <br>
-<br> Register <br>
+<br> Names of favorite Heros <br
 
 # Feature MVP
 <br> .Search Panel <br>
@@ -19,13 +18,12 @@
 
 
 # Known Bugs
-The api display only one randomList at a time
+Difficulty in finding hero names to display
 
 # Technologies Used
 Android Studio
-Hero API
 Java Language
-Firebase
+
 Espresso Testing
 Robolectric 
 JUnit
@@ -35,7 +33,7 @@ Gradle
 Clone my github repository and import android studio
 Enble gradle to import all dependancies atomatically
 Make sure you have the technologies above
-Make sure you have a Hero API.
+
 
 # Maintainers
 This project is created by Agnes Norman
