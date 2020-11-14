@@ -1,0 +1,56 @@
+# HeroFinder
+<br>Welcome to my HeroFinder App. Where you can be able to find your favourite Hero<br>
+
+# Key Features In My HeroFinder Application
+<br>LOGIN <br>
+<br> Nice images of Heros <br>
+<br> Register <br>
+
+# Feature MVP
+<br> .Search Panel <br>
+<br> Liking Activity <br>
+
+# UI
+![Screenshot from 2020-11-07 12-11-32](https://user-images.githubusercontent.com/63198747/98437481-75c63d80-20f3-11eb-9ebc-49723cb04b1f.png)
+![Screenshot from 2020-11-07 12-11-59](https://user-images.githubusercontent.com/63198747/98437485-82e32c80-20f3-11eb-894f-26454a95fe37.png)
+![Screenshot from 2020-11-07 12-12-07](https://user-images.githubusercontent.com/63198747/98437490-9098b200-20f3-11eb-8556-a7d34dab98c3.png)
+![Screenshot from 2020-11-07 12-11-32](https://user-images.githubusercontent.com/63198747/98437500-9f7f6480-20f3-11eb-86da-ccb7b9f7e721.png)
+![Screenshot from 2020-11-07 12-13-51](https://user-images.githubusercontent.com/63198747/98437506-aefead80-20f3-11eb-9af8-68384f8318c1.png)
+![Screenshot from 2020-11-07 12-13-51](https://user-images.githubusercontent.com/63198747/98437513-c3db4100-20f3-11eb-9968-d7de460d4b01.png)
+
+
+
+
+# Known Bugs
+The api display only one randomList at a time
+
+# Technologies Used
+Android Studio
+Hero API
+Java Language
+Firebase
+Espresso Testing
+Robolectric 
+JUnit
+Gradle
+
+# Installation
+Clone my github repository and import android studio
+Enble gradle to import all dependancies atomatically
+Make sure you have the technologies above
+Make sure you have a Hero API.
+
+# Maintainers
+This project is created by Agnes Norman
+(For communication:){shikonorman@gmail.com}
+
+
+# Contribution
+. Contribution for feature mvp and new ideas are highly welcomed.
+. Git Clone
+. Set the instruction/technologies required
+. Work and request for git merge
+
+# Licence
+. MIT licences
+. Copyright @ Agnesnorman2020
