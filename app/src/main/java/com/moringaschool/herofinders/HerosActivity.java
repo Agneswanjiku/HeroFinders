@@ -47,4 +47,5 @@ public class HerosActivity extends AppCompatActivity {
         });
         mLocationTextView.setText("Here are some of heros and their  culture metholodys: " + location);
     }
+
 }
