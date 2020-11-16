@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="findHerosButton" type="id" />
+    <item name="heroEditText" type="id" />
+    <item name="herosEditText" type="id" />
+    <item name="herosTextView" type="id" />
 </resources>

@@ -21,7 +21,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/locationEditText"
+        android:id="@+id/HerosEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/findHerosButton"
@@ -41,4 +41,13 @@
         android:fontFamily="@font/lily_script_one"
         android:text="FIND HEROS"
         android:textColor="@color/white" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:id="@+id/buttonLogout" />
 </RelativeLayout>

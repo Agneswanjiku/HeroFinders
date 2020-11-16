@@ -13,12 +13,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity  implements  View.OnClickListener {
-    @BindView(R.id.findHerosButton)
-    Button mFindHerosButton;
-    @BindView(R.id.locationEditText)
-    EditText mLocationEditText;
-    @BindView(R.id.appNameTextView)
-    TextView mAppNameTextView;
+    @BindView(R.id.findHerosButton) Button mFindHerosButton;
+    @BindView(R.id.herosEditText) EditText mheroEditText;
+    @BindView(R.id.appNameTextView) TextView mAppNameTextView;
+
+    private Button Logout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,15 +27,17 @@ public class MainActivity extends AppCompatActivity  implements  View.OnClickLis
         ButterKnife.bind(this);
 
         mFindHerosButton.setOnClickListener(this);
+        Logout = (Button) findViewById(R.id.buttonLogout);
+
 
     }
 
     @Override
     public void onClick(View v) {
         if (v == mFindHerosButton) {
-            String location = mLocationEditText.getText().toString();
+            String heros = mherosEditText.getText().toString();
             Intent intent = new Intent(MainActivity.this, HerosActivity.class);
-            intent.putExtra("location", location);
+            intent.putExtra("Heros", heros);
             startActivity(intent);
         }
     }
