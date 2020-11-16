@@ -41,7 +41,7 @@ public class HerosActivityInstrumentationTest {
                     .inAdapterView(withId(R.id.listView))
                     .atPosition(0)
                     .perform(click());
-//            onView(withText(herosName)).inRoot(withDecorView(not(activityDecorView)))
+            onView(withText(herosName)).inRoot(withDecorView(not(activityDecorView)))
                     .check(matches(withText(herosName)));
         }
     }
