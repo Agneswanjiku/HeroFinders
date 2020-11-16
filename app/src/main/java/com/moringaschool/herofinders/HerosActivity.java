@@ -16,7 +16,8 @@ import butterknife.ButterKnife;
 public class HerosActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.herosTextView) TextView mHerosTextView;
+
+    @BindView(R.id.locationTextView) TextView mLocationTextView;
     @BindView(R.id.listView) ListView mListView;
     private String[] cultureherosmythology = new String[]{"Abenak", "Ainu",
             "Ausralian Abronigical", "Armenian", "Ashanti", "Aztec",
@@ -35,9 +36,9 @@ public class HerosActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         Intent intent = getIntent();
-        String heros = intent.getStringExtra("heros");
+        String location = intent.getStringExtra("location");
         MyHerosArrayAdapter adapter = new MyHerosArrayAdapter(this, android.R.layout.simple_list_item_1, cultureherosmythology, heros);
-                    mListView.setAdapter(adapter);
+        mListView.setAdapter(adapter);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -45,7 +46,7 @@ public class HerosActivity extends AppCompatActivity {
                 Toast.makeText(HerosActivity.this, parks, Toast.LENGTH_LONG).show();
             }
         });
-        mHerosTextView.setText("Here are some of heros and their  culture metholodys: " + heros);
+        mLocationTextView.setText("Here are some of heros and their  culture metholodys: " + location);
     }
 
 }
